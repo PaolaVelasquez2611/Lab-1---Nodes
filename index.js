@@ -7,9 +7,13 @@
 const addPost = document.getElementById('addPost');
 const input = document.getElementById('input');
 const content = document.getElementById('content');
+const select = document.getElementById('select');
+
+var trans = select.value
 
 console.log("hola");
 addPost.addEventListener('click',createPost);
+
 
 
 
