@@ -78,6 +78,34 @@ body {
     font-family: 'Abel', sans-serif;
 }
 
+label{
+    width: 70%;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    flex: end;
+    bottom: 120px;
+    right: 30%;
+    font-family: 'Abel', sans-serif;
+}
+
+#select {
+    width: 20%;
+    height: 10px;
+    left: 40px;
+    display: flex;
+    border-radius: 32px;
+    flex-direction: column;
+    position: fixed;
+    flex: end;
+    border: 0px solid white;
+    background-color: rgb(255, 255, 255);
+    bottom: 90px;
+    right: 40%;
+    font-family: 'Abel', sans-serif;
+}
+
 
 
 
