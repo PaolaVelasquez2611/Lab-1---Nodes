@@ -11,9 +11,14 @@ const content = document.getElementById('content');
 console.log("hola");
 addPost.addEventListener('click',createPost);
 
+
+
 function createPost(){
   console.log(input.value)
-
+    const h4 = document.createElement('h4');
+    h4.textContent = input.value;
+    content.appendChild(h4);
+    return content 
 }
 
 //const trans = "camelCase"
